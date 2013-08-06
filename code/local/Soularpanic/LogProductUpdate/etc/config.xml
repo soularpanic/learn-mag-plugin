@@ -5,4 +5,22 @@
       <version>0.0.1</version>
     </Soularpanic_LogProductUpdate>
   </modules>
+  <global>
+    <models>
+      <soularpanic_logproductupdate>
+	<class>Soularpanic_LogProductUpdate_Model</class>
+      </soularpanic_logproductupdate>
+    </models>
+    <events>
+      <catalog_product_save_after>
+	<observers>
+	  <soularpanic_logproductupdate>
+	    <class>soularpanic_logproductupdate/observer</class>
+	    <method>logUpdate</method>
+	    <type>singleton</type>
+	  </soularpanic_logproductupdate>
+	</observers>
+      </catalog_product_save_after>
+    </events>
+  </global>
 </config>
