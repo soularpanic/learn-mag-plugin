@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <modules>
+    <Soularpanic_LogProductUpdate>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Soularpanic_LogProductUpdate>
+  </modules>
+</config>
